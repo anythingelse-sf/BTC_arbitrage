@@ -1,5 +1,12 @@
 # BTC_Arbitrage
 
+## Thoughts on improvement
+1) How can I modularize the approach to make it more repeatable?
+2) Using a For Loop to select dates
+3) Print the results of the arbitrage on the three dates into the same DF
+4) Grab summary statistics on the comparison of the three dates selected to analyze
+
+
 ## Approach
 1) Collecting the data.
 2) Preparing the data.
@@ -21,9 +28,11 @@
 3) Plot the data using a line plot, transposing each exchange on top of each other
 
 # Narrow your analysis to specific dates, Steps:
-1) Select a date
+1) Select three dates
+    - Adding a for loop here to select dates would be awesome
 2) Generate the summary statistics
 3) Create a box plot to compare the data from a high level
+
 
 # Calculate the arbitrage profits
 1) Measure the arbitrage spread between the two exchanges
@@ -38,5 +47,5 @@
     b) Sum the elements in your profit_per_trade DataFrame
     
 # Analysis Report
-1) Calculate the arbitrage profits across random days
-    a) Are there any patterns or trends in the profits?
+a) What conclusions are drawn from the data comparison?
+b) Are there any patterns or trends in the profits in the three time periods?
